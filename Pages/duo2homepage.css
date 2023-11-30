@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    justify-content: center;
+    background-image: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.4)),url(../images/surfaceduo2bgimage.jpg);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    margin-left:  350px;
+    margin-right:  650px;
+    margin-top: 100px;
+    border-radius: 2px;
+    width: 563px;
+    height:750px ;
+    border-radius: 50px;
+    position: relative;
+}
+    
+
+.top-container{
+    position: absolute;
+    right: 30px;
+    justify-content: space-around;
+    top: 15px;
+    font-size: 30px;
+}
+
+
+
+.time{
+    position: absolute;
+    top: 2px;
+    right: 420px;
+}
+
+.apps{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+
+.app{
+    width: 100px;
+}
+
+.icon{
+   font-size: 35px;
+   background-color: white;
+   padding: 15px;
+   border-radius: 5px;
+   align-items: center;
+   justify-content: center;
+  
+}
+
+.icon:hover{
+    cursor: pointer;
+    background-color: rgba(204, 238, 223, 0.5);
+}
+
+.lang_icon,.community_icon,.culture_icon{
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: -20px;
+}
+.money_icon{
+    color: rgb(90, 158, 90);
+    background-color: rgba(22, 20, 20,0.8);
+}
+
+.maps_icon{
+    background-color: rgba(97, 175, 141, 0.5);
+}
+
+/* .community_icon{
+    color: rgb(56, 56, 88);
+    background-color: rgba(49, 47, 47,0.5);
+} */
+
+.education_icon{
+    color: brown;
+}
+.app .tag{
+    padding-top: 18px;
+    padding-bottom: 15px;
+    
+}
+
+.search_btn{
+    position: absolute;
+    background-color: rgba(22, 20, 20,0.8);
+    top: 550px;
+    left: 220px;
+    width: 100px;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.bottom_icons{
+    background-color: rgba(22, 20, 20,0.5);
+    padding: 8px 115px;
+    margin-bottom: 50px;
+    position: absolute;
+    top: 635px;
+    left: 6px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 60px;
+    border-radius: 30px;
+}
+
+.phone_icon,.chat_icon{
+    color: white;
+    background-color: rgb(58, 182, 58);
+}
+
+.as_app{
+    background-color: white;
+    padding: 15px;
+   border-radius: 5px;
+   align-items: center;
+   justify-content: center;
+   font-size: 35px;
+   width: 80px;
+   height: 80px;
+   margin-top: -20px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+.bottom{
+    background-color: white;
+    width: 200px;
+    height: 5px;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}

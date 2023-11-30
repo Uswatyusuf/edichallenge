@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="refugeeform.css">
+</head>
+<body>
+    <!-- form begins-->
+    <form action="formSubmissionPage.php" method="post">
+        <h1>Screening form</h1>
+
+        <div class="details">
+        <p> First name:<input type="text" placeholder= "Enter Your Name" name="fname" required></p>
+        <p> Middle name Initial:<input type="text" value="E" name="mname" required></p>
+        <p> Last name:<input type="text" placeholder= "Enter Your Name" name="lname" required></p>
+        <p> Gender:
+            <input type='radio' name='gender'>Male
+            <input type='radio' name="gender">Female
+        </p>
+        <p> Date of Birth:<input type="date" name="DOB" placeholder="Enter Your Name" max='2003-12-31' required></p>
+       
+        <p> Country
+            <select name: country>
+               <option value="">Afghanistan</option> 
+                <option value="">Albania</option>
+                <option value="">Algeria</option>
+               <option value=""> Andorra</option>
+                <option value="">Angola</option>
+                <option value="">Anguilla</option>
+                <option value="">Antigua & Barbuda</option>
+                <option value="">Argentina</option>
+                <option value="">Armenia</option>
+                <option value="">Australia</option>
+                <option value="">Austria</option>
+                <option value="">Azerbaijan</option>
+                <option value="">Bahamas</option>
+                <option value="">Bahrain</option>
+                <option value="">Bangladesh</option>
+                <option value="">Barbados</option>
+                <option value="">Belarus</option>
+                <option value="">Belgium</option>
+                <option value="">Belize</option>
+                <option value="">Benin</option>
+                <option value="">Bermuda</option>
+                <option value="">Bhutan</option>
+                <option value="">Bolivia</option>
+                <option value="">Bosnia & Herzegovina</option>
+                <option value="">Botswana</option>
+                <option value="">Brazil</option>
+                <option value="">Brunei Darussalam</option>
+                <option value="">Bulgaria</option>
+                <option value="">Burkina Faso</option>
+                <option value="">Burundi</option>
+                <option value="">Cambodia</option>
+                <option value="">Cameroon</option>
+                <option value="">Canada</option>
+                <option value="">Cape Verde</option>
+                <option value="">Cayman Islands</option>
+                <option value="">Central African Republic</option>
+                <option value="">Chad</option>
+                <option value="">Chile</option>
+                <option value="">China</option>
+               <option value=""> China - Hong Kong / Macau</option>
+                <option value="">Colombia</option>
+                <option value="">Comoros</option>
+                <option value="">Congo</option>
+                <option value="">Congo, Democratic Republic of (DRC)</option>
+                <option value="">Cook Islands</option>
+                <option value="">Costa Rica</option>
+                <option value="">Croatia</option>
+                <option value="">Cuba</option>
+                <option value="">Cyprus</option>
+                <option value="">Czech Republic</option>
+                <option value="">Denmark</option>
+                <option value="">Djibouti</option>
+                <option value="">Dominica</option>
+               <option value=""> Dominican Republic</option>
+               <option value=""> Ecuador</option>
+                <option value="">Egypt</option>
+               <option value=""> El Salvador</option>
+                <option value="">Equatorial Guinea</option>
+                <option value="">Eritrea</option>
+               <option value=""> Estonia</option>
+                <option value="">Eswatini</option>
+                <option value="">Ethiopia</option>
+                <option value="">Faroe Islands</option>
+                <option value="">Federated States of Micronesia</option>
+               <option value=""> Fiji</option>
+                <option value="">Finland</option>
+                <option value="">France</option>
+                French Guiana
+                Gabon
+                Gambia, Republic of The
+                Georgia
+                Germany
+                Ghana
+                Great Britain
+                Greece
+                Greenland
+                Grenada
+                Guadeloupe
+                Guatemala
+                Guinea
+                Guinea-Bissau
+                Guyana
+                Haiti
+                Honduras
+                Hungary
+                Iceland
+                India
+                Indonesia
+                Iran
+                Iraq
+                Israel and the Occupied Territories
+                Italy
+                Ivory Coast (Cote d'Ivoire)
+                Jamaica
+                Japan
+                Jordan
+                Kazakhstan
+                Kenya
+                Kiribati
+                Korea, Democratic Republic of (North Korea)
+                Korea, Republic of (South Korea)
+                Kosovo
+                Kuwait
+                Kyrgyz Republic (Kyrgyzstan)
+                Laos
+                Latvia
+                Lebanon
+                Lesotho
+                Liberia
+                Libya
+                Liechtenstein
+                Lithuania
+                Luxembourg
+                Madagascar
+                Malawi
+                Malaysia
+                Maldives
+                Mali
+                Malta
+                Marshall Islands
+                Martinique
+                Mauritania
+                Mauritius
+                Mayotte
+                Mexico
+                Moldova, Republic of
+                Monaco
+                Mongolia
+                Montenegro
+                Montserrat
+                Morocco
+                Mozambique
+                Myanmar/Burma
+                Namibia
+                Nauru
+                Nepal
+                New Zealand
+                Nicaragua
+                Niger
+                Nigeria
+                Niue
+                North Macedonia, Republic of
+                Norway
+                Oman
+                Pakistan
+                Palau
+                Panama
+                Papua New Guinea
+                Paraguay
+                Peru
+                Philippines
+                Poland
+                Portugal
+                Puerto Rico
+                Qatar
+                Reunion
+                Romania
+                Russian Federation
+                Rwanda
+                Saint Kitts and Nevis
+                Saint Lucia
+                Saint Vincent and the Grenadines
+                Samoa
+                Sao Tome and Principe
+                Saudi Arabia
+                Senegal
+                Serbia
+                Seychelles
+                Sierra Leone
+                Singapore
+                Slovak Republic (Slovakia)
+                Slovenia
+                Solomon Islands
+                Somalia
+                South Africa
+                South Sudan
+                Spain
+                Sri Lanka
+                Sudan
+                Suriname
+                Sweden
+                Switzerland
+                Syria
+                Türkiye (Turkey)
+                Taiwan
+                Tajikistan
+                Tanzania
+                Thailand
+                Netherlands
+                Timor Leste
+                Togo
+                Tonga
+                Trinidad & Tobago
+                Tunisia
+                Turkmenistan
+                Turks & Caicos Islands
+                Tuvalu
+                Uganda
+                Ukraine
+                United Arab Emirates
+                United States of America (USA)
+                Uruguay
+                Uzbekistan
+                Vanuatu
+                Venezuela
+                Vietnam
+                Virgin Islands (UK)
+                Virgin Islands (US)
+                Yemen
+                Zambia
+                Zimbabwe
+                </select>
+        </p>
+        <p> Religion:<input type='text' name='religion'></p>
+        <p> Marital Status:<br>
+            <input type='radio' name='MS'>Single<br>
+            <input type='radio' name='MS'>Married<br>
+       </p>
+       <fieldset><legend>If married, provide information about your spouse</legend>
+        <p> First name:<input type="text" name="fname"></p>
+        <p> Middle name:<input type="text" name="Mname"></p>
+        <p> Last name:<input type="text" name="lname"></p>
+        <p> Home Address:<input type="text" name="address"></p>
+    </fieldset>
+    <p> Do you have kids?<br>
+        <input type='radio' name='MS'>Yes<br>
+        <input type='radio' name='MS'>No<br></p>
+        <fieldset><legend>If yes, provide information them</legend>
+            <p> First name:<input type="text" name="fname"></p>
+            <p> Middle name:<input type="text" name="Mname"></p>
+            <p> Last name:<input type="text" name="lname"></p>
+            <p> Home Address:<input type="text" name="address"></p>
+        </fieldset>
+        <p>
+          Address:
+            <input type="text" name="address"></p>
+            <P> Postal Code:
+                <input type="text" name="PC">
+                    </p>
+<p>Upload a picture of yourself? <br>
+    <input type="file" name="passport">
+</p>
+<fieldset><legend>Upload or record a video of yourself answering the following questions</legend>
+<p>Why have you come to the Uk? <br>
+    <input type="file" accept="video/*" capture="camera" id="recorder" />
+    <!-- <video id="player" controls></video> -->
+    <!-- <a id="download">Download</a>
+    <button id="stop">Stop</button> --></p>
+<p>Why are you claiming asylum?</p>
+<p>How did you get to the Uk?</p>
+<p>Have you claimed asylum or been granted 'Refugee Status' in any other country?
+    <br>
+        <input type='radio' name='MS'>Yes<br>
+        <input type='radio' name='MS'>No<br>
+</p>
+<p>If yes, briefly explain? Make sure to mention why you left the country.</p>
+</fieldset>
+<p>Have you experienced sexual violence, domestic violence or torture
+    <br>
+    <input type='radio' name='MS'>Yes<br>
+    <input type='radio' name='MS'>No<br>
+</p>
+<fieldset><legend>Asylum support </legend>
+ <p>At this point of the legal process, you will be entitled to “asylum support” -housing and a small amount of money-<br>but you will have no choice about the location where you live, unless you have someone who will let you stay in their house.</p>
+ <p>Do you need asylum support?
+    <br>
+    <input type='radio' name='MS'>Yes<br>
+    <input type='radio' name='MS'>No<br>
+</p>
+</fieldset>
+<div >
+    <a href="" class="button" onclick="substantive()">Claim Asylum</a>
+</div>
+</div>
+
+</div>
+        
+
+<!-- <script>
+     var player = document.getElementById('player');
+
+var handleSuccess = function (stream) {
+  player.srcObject = stream;
+};
+
+navigator.mediaDevices
+  .getUserMedia({audio: true, video: true})
+  .then(handleSuccess);
+  let shouldStop = false;
+  let stopped = false;
+  const downloadLink = document.getElementById('download');
+  const stopButton = document.getElementById('stop');
+
+  stopButton.addEventListener('click', function() {
+    shouldStop = true;
+  })
+
+  var handleSuccess = function(stream) {
+    const options = {mimeType: 'video/webm'};
+    const recordedChunks = [];
+    const mediaRecorder = new MediaRecorder(stream, options);
+
+    mediaRecorder.addEventListener('dataavailable', function(e) {
+      if (e.data.size > 0) {
+        recordedChunks.push(e.data);
+      }
+
+      if(shouldStop === true && stopped === false) {
+        mediaRecorder.stop();
+        stopped = true;
+      }
+    });
+
+    mediaRecorder.addEventListener('stop', function() {
+      downloadLink.href = URL.createObjectURL(new Blob(recordedChunks));
+      downloadLink.download = 'acetest.webm';
+    });
+
+    mediaRecorder.start();
+  };
+
+  navigator.mediaDevices.getUserMedia({ audio: true, video: true })
+      .then(handleSuccess);
+  </script> -->
+  <script src="refugeeform.js"></script>
+</body>
+</html>

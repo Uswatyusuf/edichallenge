@@ -1,0 +1,85 @@
+.container{
+    justify-content: center;
+    background-image: url(../images/Alexander\ &\ Sacha\ \(1\).png);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    margin-left:  350px;
+    margin-right:  650px;
+    margin-top: 100px;
+    border-radius: 2px;
+    width: 563px;
+    height:750px ;
+    border-radius: 50px;
+    position: relative;
+    
+}
+
+.top-container{
+    position: absolute;
+    right: 30px;
+    justify-content: space-between;
+    top: 15px;
+    font-size: 22px;
+    color: white;
+    
+}
+
+.time{
+    position: absolute;
+    top: 2px;
+    right: 420px;
+}
+.btn{
+    position: absolute;
+    top: 670px;
+    justify-content: center;
+    align-items: center;
+    right: 110px;
+    width: 270px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 60px;
+    color: rgb(34, 24, 31);
+    background-color: blanchedalmond;
+    padding: 5px;
+    font-weight: 300px;
+}
+   
+button:hover{
+    background-color: whitesmoke;
+}
+
+select{
+    margin-top: 50px;
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+
+a{
+    color: black;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+    margin-right: 10px;
+}
+
+.text{
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.bottom{
+    background-color: white;
+    width: 200px;
+    height: 5px;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
