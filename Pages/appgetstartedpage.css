@@ -1,4 +1,12 @@
 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+ background-color: black;
+}
 .container{
     justify-content: center;
     background-image: url(../images/Alexander\ &\ Sacha\ \(1\).png);
@@ -34,10 +42,10 @@
 }
 .btn{
     position: absolute;
-    top: 670px;
+    top: 750px;
     justify-content: center;
     align-items: center;
-    right: 110px;
+    left: 500px;
     width: 270px;
     height: 50px;
     border-radius: 50px;
@@ -53,7 +61,9 @@ button:hover{
 }
 
 select{
-    margin-top: 50px;
+   position: absolute;
+   top: -90px;
+   margin-left: 900px;
     height: 50px;
     width: 100px;
     border-radius: 5px;

@@ -29,7 +29,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: rgb(211, 219, 253);;
+    background: rgb(84, 93, 133);
     list-style: none;
     bottom: -100px;
 }
