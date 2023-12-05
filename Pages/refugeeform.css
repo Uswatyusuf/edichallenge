@@ -10,7 +10,7 @@ body{
   display: grid;
       justify-content: center;
   align-items: center;
-  background-color: #6d94f7;
+  background-color: rgb(84, 93, 133);
   background-size: cover;
   width: 100%;
   height: 100%;
