@@ -113,8 +113,8 @@ body{
     padding: 8px 115px;
     margin-bottom: 50px;
     position: absolute;
-    top: 635px;
-    left: 6px;
+    top: 535px;
+    
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 60px;
